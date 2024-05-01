@@ -8,7 +8,6 @@ body {
     background-color: #D84A8E !important;
 }
 .navbar-nav {
-    justify-content: space-evenly;
     width: 100%;
 }
 .navbar a {
@@ -20,10 +19,6 @@ body {
 .navbar-toggler > span {
     color: white !important;
 }
-/*-- pick a thing --*/
-.navbar a:hover {
-    color: white;
-}
 .shift-right {
     margin-left: auto;
 }
@@ -32,6 +27,12 @@ body {
     font-weight: bold;
 }
 .nav-link {
+    justify-content: end;
     font-weight: bold !important;
     font-size: 1.2rem !important;
+    padding: 0 1rem 0 1rem !important;
+}
+.nav-link:hover {
+    border-bottom: 3px solid white;
+    border-width: .2ch;
 }
