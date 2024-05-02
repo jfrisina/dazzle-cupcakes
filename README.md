@@ -1,3 +1,3 @@
-# Dazzle Cupcakes Website
+# Dazzle Cupcakes
 
 A reimagining of Dazzle Cupcakes' website. 
