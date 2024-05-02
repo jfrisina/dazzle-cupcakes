@@ -1,9 +1,9 @@
-/* --------- GENERAL ---------*/
+/* ---------------------------------- GENERAL ---------------------------------_*/
 body {
     font-family: "Inter", sans-serif !important;
 }
 
-/* --------- NAVBAR ---------*/
+/* ---------------------------------- NAVBAR ---------------------------------_*/
 .navbar {
     background-color: #D84A8E !important;
 }
@@ -30,9 +30,30 @@ body {
     justify-content: end;
     font-weight: bold !important;
     font-size: 1.2rem !important;
-    padding: 0 1rem 0 1rem !important;
+    padding: 0 1.3em 0 1.3rem !important;
 }
-.nav-link:hover {
-    border-bottom: 3px solid white;
-    border-width: .2ch;
+/* ---------------------------------- HERO ---------------------------------_*/
+.hero {
+    background-image: url("/images/cupcake-hero.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+    height: 50vh;
+}
+/* Dark overlay */
+.hero::before {
+    content: '';
+    position: absolute;
+    left: 0;
+    width: 100%;
+    height: 50%;
+    background-color: rgba(0, 0, 0, 0.5); /* Adjust the alpha (last) value to change the darkness */
+    z-index: 1;
+  }
+.btn {
+    background-color: #71CBB5 !important;
+    z-index: 2;
+    top: 45%;
+    position: relative;
 }
