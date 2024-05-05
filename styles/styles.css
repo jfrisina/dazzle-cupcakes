@@ -56,7 +56,7 @@ body {
     background-color: rgba(0, 0, 0, 0.5); /* Adjust the alpha (last) value to change the darkness */
     z-index: 1;
   }
-.btn {
+.hero .btn {
     background-color: #71CBB5 !important;
     z-index: 2;
     top: 45%;
@@ -83,6 +83,17 @@ body {
 .card-row {
     margin-bottom: 5rem;
 }
+/* ---------------------------------- EVENTS ---------------------------------*/
+.events {
+    background-color: #BCF5E8;
+}
+.events button {
+    background-color: #D84A8E;
+}
+.event-img {
+    width: 5rem;
+}
+
 /* ---------------------------------- GLUTEN-FREE + VEGAN ---------------------------------*/
 .img-dietary {
     height: 10rem;
@@ -100,8 +111,9 @@ body {
     border-radius: 20px;
     padding: 2rem 0;
     background-color: #F5F5F5;
+    width: fit-content;
 }
-.callout > p, a {
+.callout p, .callout a {
     margin-left: 2rem;
 }
 /* ---------------------------------- MENU ---------------------------------*/
@@ -119,4 +131,16 @@ body {
 .menu-event {
     background-color: #FFE8F3;
     padding: 5rem 0;
+}
+/* ---------------------------------- FOOTER ---------------------------------*/
+footer {
+    background-color: black;
+}
+table, td{
+    background-color: black !important;
+    color: white !important;
+    border: none !important;
+}
+footer td {
+    padding: 0 .5rem .1rem 0 !important;
 }
