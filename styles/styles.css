@@ -93,6 +93,10 @@ body {
 .event-img {
     width: 5rem;
 }
+.rounded-circle {
+    width: 8rem;
+    height: 8rem;
+}
 
 /* ---------------------------------- GLUTEN-FREE + VEGAN ---------------------------------*/
 .img-dietary {
