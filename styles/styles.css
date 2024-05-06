@@ -41,9 +41,6 @@ button:hover {
     font-size: 1.2rem !important;
     padding: 0 1.3em 0 1.3rem !important;
 }
-.dropdown-item {
-    color: #D84A8E;
-}
 /* ---------------------------------- HERO ---------------------------------_*/
 .hero {
     background-image: url("/images/cupcake-hero.jpg");
