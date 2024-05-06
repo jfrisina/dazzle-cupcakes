@@ -8,6 +8,9 @@ body {
 .mint {
     color: #71CBB5;
 }
+button:hover {
+    box-shadow: var(--bs-box-shadow)!important;
+}
 /* ---------------------------------- NAVBAR ---------------------------------_*/
 .navbar {
     background-color: #D84A8E !important;
@@ -140,7 +143,10 @@ body {
     background-color: #FFE8F3;
     padding: 5rem 0;
 }
-.menu-event > button {
+.menu-event button {
+    background-color: #71CBB5;
+}
+.menu-event button:hover {
     background-color: #71CBB5;
 }
 /* ---------------------------------- CONTACT FORM ---------------------------------*/
