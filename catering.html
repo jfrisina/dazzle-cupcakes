@@ -3,7 +3,7 @@
 <head>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<title>Order</title>
+	<title>Catering</title>
 <!---------------------------------- CSS ---------------------------------->
 	<link rel="stylesheet" href="./styles/styles.css"/>
 <!---------------------------------- BOOTSTRAP ---------------------------------->
@@ -24,17 +24,24 @@
           </button>
           <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
             <div class="navbar-nav">
-              <a class="nav-link shift-right" href="#">Menu</a>
+				<div class="dropdown shift-right">
+                    <a class="nav-link dropdown-toggle shift-right" href="/menu.html" role="button" id="menuDropdown" data-bs-toggle="dropdown" aria-expanded="false">Menu</a>
+                    <ul class="dropdown-menu" aria-labelledby="menuDropdown">
+                        <li><a class="dropdown-item" href="/cupcakes.html" class="pink">Cupcakes</a></li>
+                        <li><a class="dropdown-item" href="#">Cakes</a></li>
+                        <li><a class="dropdown-item" href="#">Mini Pies</a></li>
+                    </ul>
+                </div>
               <a class="nav-link" href="#">Catering</a>
               <a class="nav-link" href="#">About</a>
-              <a class="nav-link pe-4" href="#">Contact</a>
+              <a class="nav-link pe-4" href="/contact.html">Contact</a>
             </div>
           </div>
         </div>
     </nav>
 <!---------------------------------- PAGE TITLE
  ---------------------------------->
-<h1 class="text-center mb-4">Order Now</h1>
+<h1 class="text-center mb-4">Catering</h1>
 <!---------------------------------- FORM
  ---------------------------------->
  <section class="container w-50 mb-4">
@@ -92,6 +99,31 @@
 	<input class="form-check-input" type="checkbox" value="None" id="none">
 	<label class="form-check-label" for="none">
 	  No dietary restrictions
+	</label>
+  </div>
+  <p class="mb-1">Event type:</p>
+  <div class="form-check">
+	<input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
+	<label class="form-check-label" for="flexRadioDefault1">
+	  Wedding
+	</label>
+  </div>
+  <div class="form-check">
+	<input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault2" checked>
+	<label class="form-check-label" for="flexRadioDefault2">
+	  Birthday
+	</label>
+  </div>
+  <div class="form-check">
+	<input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
+	<label class="form-check-label" for="flexRadioDefault1">
+	  Holiday
+	</label>
+  </div>
+  <div class="form-check mb-3">
+	<input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault2" checked>
+	<label class="form-check-label" for="flexRadioDefault2">
+	  Other
 	</label>
   </div>
   <div class="form-floating mb-3">

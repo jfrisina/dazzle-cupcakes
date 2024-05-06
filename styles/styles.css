@@ -15,7 +15,7 @@ body {
 .navbar-nav {
     width: 100%;
 }
-.navbar a {
+.navbar a.nav-link {
     color: white;
 }
 .navbar-toggler {
@@ -30,12 +30,16 @@ body {
 .navbar-brand {
     padding-left: 2rem;
     font-weight: bold;
+    color: white !important;
 }
 .nav-link {
     justify-content: end;
     font-weight: bold !important;
     font-size: 1.2rem !important;
     padding: 0 1.3em 0 1.3rem !important;
+}
+.dropdown-item {
+    color: #D84A8E;
 }
 /* ---------------------------------- HERO ---------------------------------_*/
 .hero {
