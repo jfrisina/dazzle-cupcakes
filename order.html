@@ -3,7 +3,7 @@
 <head>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<title>Contact</title>
+	<title>Order</title>
 <!---------------------------------- CSS ---------------------------------->
 	<link rel="stylesheet" href="./styles/styles.css"/>
 <!---------------------------------- BOOTSTRAP ---------------------------------->
@@ -34,7 +34,7 @@
     </nav>
 <!---------------------------------- PAGE TITLE
  ---------------------------------->
-<h1 class="text-center mb-4">Contact Dazzle</h1>
+<h1 class="text-center mb-4">Order Now</h1>
 <!---------------------------------- FORM
  ---------------------------------->
  <section class="container w-50 mb-4">
@@ -50,18 +50,61 @@
 	<input type="tel" class="form-control" id="tel" placeholder="Phone">
 	<label for="floatingInput">Phone</label>
   </div>
- 
- <select class="form-select mb-3" aria-label="Default select example">
-	<option selected>I am interested in...</option>
-	<option value="1">Catering</option>
-	<option value="2">Ordering</option>
-	<option value="3">Custom Request</option>
-	<option value="4">Other</option>
-  </select>
-
+  <p class="mb-1">What would you like to order?</p>
+  <div class="form-check">
+	<input class="form-check-input" type="checkbox" value="Cupcakes" id="cupcakes">
+	<label class="form-check-label" for="cupcakes">
+	  Cupcakes
+	</label>
+  </div>
+  <div class="form-check">
+	<input class="form-check-input" type="checkbox" value="Cake" id="cake">
+	<label class="form-check-label" for="cake">
+	  Cake
+	</label>
+  </div>
+  <div class="form-check mb-4">
+	<input class="form-check-input" type="checkbox" value="Minipies" id="mini-pies">
+	<label class="form-check-label" for="mini-pies">
+	  Mini Pies
+	</label>
+  </div>
+  <p class="mb-1">Please select any dietary restrictions for this order:</p>
+  <div class="form-check">
+	<input class="form-check-input" type="checkbox" value="Vegan" id="vegan">
+	<label class="form-check-label" for="vegan">
+	  Vegan
+	</label>
+  </div>
+  <div class="form-check">
+	<input class="form-check-input" type="checkbox" value="Gluten-free" id="gf">
+	<label class="form-check-label" for="gf">
+	  Gluten-free
+	</label>
+  </div>
+  <div class="form-check">
+	<input class="form-check-input" type="checkbox" value="Vegan-and-gluten-free" id="v-gf">
+	<label class="form-check-label" for="v-gf">
+	  Vegan and gluten-free
+	</label>
+  </div>
+  <div class="form-check mb-3">
+	<input class="form-check-input" type="checkbox" value="None" id="none">
+	<label class="form-check-label" for="none">
+	  No dietary restrictions
+	</label>
+  </div>
   <div class="form-floating mb-3">
-	<textarea class="form-control" placeholder="MEssage" id="message"></textarea>
-	<label for="floatingTextarea">Message</label>
+	<input type="date" class="form-control" id="floatingInput" placeholder="Email">
+	<label for="floatingInput">Pick up date</label>
+  </div>
+  <div class="form-floating mb-3">
+	<input type="text" class="form-control" id="amount" placeholder="How many?">
+	<label for="floatingInput">How many? </label>
+  </div>
+  <div class="form-floating mb-3">
+	<textarea class="form-control" placeholder="Additional info" id="add-info"></textarea>
+	<label for="floatingTextarea">Additional info</label>
   </div>
   <form action="/upload" method="post" enctype="multipart/form-data">
     <label for="file">Choose a file:</label>

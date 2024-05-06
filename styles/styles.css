@@ -136,6 +136,14 @@ body {
     background-color: #FFE8F3;
     padding: 5rem 0;
 }
+.menu-event > button {
+    background-color: #71CBB5;
+}
+/* ---------------------------------- CONTACT FORM ---------------------------------*/
+.message-btn {
+    background-color: #71CBB5 !important;
+}
+
 /* ---------------------------------- FOOTER ---------------------------------*/
 footer {
     background-color: black;
